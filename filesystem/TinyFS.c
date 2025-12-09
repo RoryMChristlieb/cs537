@@ -1,3 +1,12 @@
+/*********************************************************************
+* Author: Aryan Ahlawat, Rory-Michael Christlieb
+* Created: December 8, 2025
+*
+* Implementation of TinyFS - A simple file system with support for
+* file creation, reading, writing, and deletion. Uses inode-based
+* structure with bitmaps for allocation tracking.
+**********************************************************************/
+
 #include "TinyFS.h"
 #include "TinyDisk.h"
 
